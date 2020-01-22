@@ -1,4 +1,5 @@
 const express = require('express')
+const dbConfig = require('./data/db-config')
 
 const server = express()
 const port = process.env.PORT || 5000
